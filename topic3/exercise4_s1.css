@@ -1,0 +1,99 @@
+/*This is the style for the whole body*/
+body 
+{
+  background-color: black; 
+  display: flex;
+  flex-direction: column; 
+  justify-content: center;
+  align-items: center; 
+  min-height: 100vh; 
+}
+/*This is the style for the header*/
+header 
+{
+  background-color: green; 
+  padding: 1rem;
+  width: 80%
+}
+
+header h1 
+{
+  font-size: 1.5rem; 
+  font-weight: bold;
+  color: white; 
+}
+header h2 
+{
+  color: white;
+}
+header h3 
+{
+  font-weight: bold
+  
+}
+
+nav 
+{
+  background-color: lightgreen; 
+  padding: 1rem
+}
+
+nav li 
+{
+  display: inline-block;
+  
+  margin: 0 1rem;
+}
+/*This is the style for the hyperlinks*/
+nav a 
+{
+  color: orange;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+main 
+{
+  padding: 2rem;
+  width: 80%
+}
+/*This is the style for all section*/
+section 
+{
+  background-color:white; 
+  padding: 1rem;
+  
+}
+
+section h2 
+{
+  font-size: 1.25rem; 
+  
+}
+
+#links a 
+{
+  color: orange;
+  
+}
+
+#cv a 
+{
+  color:orange; 
+  font-weight: bold;
+}
+
+/*This is the style for the foote*/
+footer 
+{
+  background-color: green; 
+  padding: 1rem;
+  text-align: center;
+  width: 80%
+}
+/*Footer paragraph style*/
+footer p 
+{
+  color:white; 
+  margin-bottom: 0;
+}

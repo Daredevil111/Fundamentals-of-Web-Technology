@@ -1,0 +1,31 @@
+table 
+{
+    border-collapse: collapse;
+    border: 0.2rem solid green
+}
+
+th, td 
+{
+    border: 1px solid white;
+    padding: 8px;
+    text-align: left;
+}
+
+caption 
+{
+    font-size: 1.5em;
+    background-color: greenyellow;
+    font-weight: bold;
+    padding: 8px;
+    text-align: left;
+}
+
+th 
+{
+    background-color: grey;
+}
+
+tfoot
+{
+    font-weight: bold;
+}

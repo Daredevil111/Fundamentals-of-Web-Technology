@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Play:wght@400;700&family=Quicksand:wght@300;400;700&family=Staatliches:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Shippori+Mincho&display=swap');
+.container 
+{
+    font-family: 'Barlow Condensed', sans-serif;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background-color: green;    
+}
+nav li
+{
+    display: inline-block;
+    margin-right: 0.1rem;
+}
+section#research-interests
+{
+    display: grid;
+    grid-row:2;
+    grid-column: 1;
+}
+.picture 
+{
+    display: flex;  
+    justify-content:space-between;
+    width: fit-content;
+    height: fit-content;
+  }
+
+.main-content
+{
+    display: grid;
+    grid-template-columns: repeat(3,auto);
+    grid-template-rows: repeat(2, auto);
+}
+
+section#hobbies 
+{
+    display: grid;
+    grid-column: 5; 
+    grid-row: 2; 
+}
+section#core-info 
+{
+    display: grid;
+    grid-row: 3; 
+    grid-column: 1;
+  }
+section#movies 
+  {
+    grid-column: 5; 
+    grid-row: 3; 
+  }
+  section#skills 
+  {
+    display: grid;
+    grid-row: 4; 
+    grid-column: 1;
+  }
+  
+ 
+ section#education 
+ {
+    grid-column: 2 / span 3; 
+    grid-row: 3;
+  }
+
+  article 
+  {
+    grid-column: span 2; 
+    background-color:white; 
+    padding: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); 
+  }
+  
+h2 {
+    font-family: 'Play', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: white;
+    background-color: green;
+  }
+  
+  article p {
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5; 
+  }
+
+  h3{
+    font-family: 'Quicksand', sans-serif;
+    line-height: 1.5;
+    color: brown;
+    background-color: lightcoral;
+  }
+  section 
+  {
+    margin-bottom: 1rem; 
+  }
+  
+  section h2 
+  {
+    font-family: 'Play', sans-serif;
+    font-size: 1.2rem;
+    margin-bottom: 0.5rem; 
+  }
+  
+

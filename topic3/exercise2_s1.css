@@ -1,0 +1,10 @@
+div 
+{
+    background-color: silver;
+}
+  
+strong 
+{
+    font-size: 24pt;
+}
+@import url("exercise2_s2.css");

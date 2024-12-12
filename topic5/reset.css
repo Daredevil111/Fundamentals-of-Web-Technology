@@ -1,0 +1,31 @@
+html 
+{
+    font-size: 16px;
+}
+
+*, *::before, *::after 
+{
+    box-sizing: border-box;
+}
+
+
+body 
+{
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5, h6, p
+{
+    padding: 0;
+    margin: 0.2rem;
+}
+
+ul, ol, li, a 
+{
+    padding: 0;
+    margin: 1rem;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}

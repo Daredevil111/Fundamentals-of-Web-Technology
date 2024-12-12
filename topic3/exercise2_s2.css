@@ -1,0 +1,10 @@
+p, ul 
+{
+    background-color: green;
+    font-size: 24pt;
+}
+  
+a:hover 
+{
+    background-color: silver;
+}

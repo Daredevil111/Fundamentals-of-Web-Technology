@@ -1,0 +1,35 @@
+table 
+{
+    border-collapse: collapse;
+    width: 50%; 
+    margin: 0 auto;
+    border: 0.15rem solid black; 
+}
+
+th, td 
+{
+    text-align: center;
+    padding: 10px;
+    border: 0.1rem solid white;
+    color: grey;
+}
+
+caption 
+{
+    font-weight: bold;
+    font-size: 1.2em;
+    padding: 10px;
+    text-align: center;
+    background-color: magenta;
+}
+
+
+th 
+{
+    background-color: pink
+}
+
+td:empty 
+{
+    background-color: grey;
+}
